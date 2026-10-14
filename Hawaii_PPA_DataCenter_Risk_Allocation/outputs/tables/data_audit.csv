@@ -1,0 +1,4 @@
+﻿dataset,rows,first_month,last_month,islands,price_nulls,duplicate_keys
+contract_prices,6508,2015-01,2026-10,"{""hawaii"": 2609, ""maui"": 1300, ""oahu"": 2599}",0,36
+contract_panel,6296,2015-01,2026-10,"{""hawaii"": 2609, ""maui"": 1136, ""oahu"": 2551}",0,0
+island_month,416,2015-01,2026-10,"{""hawaii"": 141, ""maui"": 133, ""oahu"": 142}",,0

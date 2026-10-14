@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "contract_prices",
+    "rows": 6508,
+    "start_month": "2015-01",
+    "end_month": "2026-10",
+    "island_counts": {
+      "hawaii": 2609,
+      "maui": 1300,
+      "oahu": 2599
+    },
+    "price_nulls": 0,
+    "duplicate_keys": 36,
+    "source_zip_member": "PPAφùñ∞ºÇ_∞é¼∞Ü⌐δì░∞¥┤φä░/1_∞¢É∞₧Éδúî_∞áòδª¼δ│╕/φòÿ∞ÖÇ∞¥┤_Ω│ä∞ò╜δ│ä_∞¢öδ│äδï¿Ω░Ç_2015-2026.csv"
+  },
+  {
+    "dataset": "contract_panel",
+    "rows": 6296,
+    "start_month": "2015-01",
+    "end_month": "2026-10",
+    "island_counts": {
+      "hawaii": 2609,
+      "maui": 1136,
+      "oahu": 2551
+    },
+    "price_nulls": 0,
+    "duplicate_keys": 0,
+    "source_zip_member": "PPAφùñ∞ºÇ_∞é¼∞Ü⌐δì░∞¥┤φä░/2_δ╢ä∞ä¥∞Ü⌐/Ω│ä∞ò╜x∞¢ö_φî¿δäÉ_2015-2026.csv"
+  },
+  {
+    "dataset": "island_month",
+    "rows": 416,
+    "start_month": "2015-01",
+    "end_month": "2026-10",
+    "island_counts": {
+      "hawaii": 141,
+      "maui": 133,
+      "oahu": 142
+    },
+    "price_nulls": null,
+    "duplicate_keys": 0,
+    "source_zip_member": "PPAφùñ∞ºÇ_∞é¼∞Ü⌐δì░∞¥┤φä░/1_∞¢É∞₧Éδúî_∞áòδª¼δ│╕/φòÿ∞ÖÇ∞¥┤_∞ä¼δ│ä_∞¢öδ│ä∞Üö∞ò╜_2015-2026.csv"
+  }
+]

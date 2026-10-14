@@ -1,0 +1,5 @@
+﻿scenario,years,total_demand_charge_usd,minimum_topup_vs_peak_usd,annual_early_year_1_topup_usd,peak_utilization_assumption
+normal,12,108270000.0,12270000.0,3180000.0,0.8
+delay,12,108270000.0,21870000.0,5100000.0,0.8
+partial,12,108270000.0,54510000.0,3180000.0,0.8
+cease_after_2y,12,108270000.0,102510000.0,3180000.0,0.8

@@ -1,0 +1,13 @@
+﻿scenario,minimum_ratio,five_year_total_usd_illustrative,five_year_extra_vs_no_min_usd_illustrative
+EPRI_ramp,0.0,27000000.0,0.0
+EPRI_ramp,0.65,40200000.0,13200000.0
+EPRI_ramp,0.85,51000000.0,24000000.0
+delayed,0.0,18000000.0,0.0
+delayed,0.65,39000000.0,21000000.0
+delayed,0.85,51000000.0,33000000.0
+partial,0.0,18900000.0,0.0
+partial,0.65,39000000.0,20100000.0
+partial,0.85,51000000.0,32100000.0
+exit_after_year_2,0.0,5400000.0,0.0
+exit_after_year_2,0.65,39000000.0,33600000.0
+exit_after_year_2,0.85,51000000.0,45600000.0

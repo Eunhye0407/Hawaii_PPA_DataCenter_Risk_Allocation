@@ -1,0 +1,16 @@
+{
+  "contract_MW": 100.0,
+  "illustrative_demand_charge_USD_per_kW_month": 10.0,
+  "peak_utilization": 0.8,
+  "load_ramp_capacities": [
+    0.5,
+    0.65,
+    0.8,
+    0.9
+  ],
+  "after_ramp_tiered_minimum_MW": 82.5,
+  "billing": "monthly 30-min peak vs 85% ramp capacity during ramp; afterwards max(tier min, 85% preceding 11-month highest billing demand, observed peak)",
+  "term_years": 12,
+  "early_shutdown": "obligation simulated through initial term; NOT a permitted 36-month exit; stop month-year 3",
+  "limitations": "No energy charges, approved primary/secondary rate, riders, exit option, changing prices, capacity reassignment, collateral utilization, discounting, capital recovery; 11-month rule interpreted from billed peak; sensitivity needed"
+}
