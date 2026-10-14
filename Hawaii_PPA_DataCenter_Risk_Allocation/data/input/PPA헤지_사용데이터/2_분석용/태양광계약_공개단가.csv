@@ -1,0 +1,9 @@
+﻿island,source,price_cents_kwh,storage,source_doc,note
+hawaii,Waikoloa Solar,8.0,30MW/120MWh,Hawaii Tribune-Herald 2019-01-07; Utility Dive 2019,AES; 25년 고정
+hawaii,Hale Kuawehi Solar,9.0,30MW/120MWh,Hawaii Tribune-Herald 2019-01-07; Utility Dive 2019,Innergex; 25년 고정
+maui,AES Kuihelani Solar,8.0,60MW/240MWh,Utility Dive 2019; TaiyangNews 2019,AES
+oahu,Mililani I Solar,9.0,39MW/156MWh,Utility Dive 2019,Clearway (표에서 반올림된 값)
+oahu,Waiawa Solar,10.0,36MW/144MWh,Utility Dive 2019,Clearway (표에서 반올림된 값)
+oahu,Hoohana Solar,10.0,52MW/208MWh,Utility Dive 2019,174 Power Global (표에서 반올림된 값)
+oahu,West Oahu Solar,11.5,12.5MW/50MWh,Hawaiian Electric 2024-04-09 보도자료,AES; 원문 표기 '$0.115 cents' → 11.5¢로 해석
+oahu,Kupono Solar,,42MW/168MWh,Ameresco/Bright Canyon 2022 (단가 미공개),단가 못 찾음

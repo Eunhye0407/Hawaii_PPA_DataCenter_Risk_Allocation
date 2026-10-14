@@ -1,0 +1,50 @@
+﻿island,category,contract,regime,first,last,n_months,avg_share_pct,formula,basis,price_min,price_max,elasticity,corr_fuel,chg_share_nonjan,note
+hawaii,fossil,HEP,all,2015-01,2026-10,141,24.48,FOSSIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.59",9.11,58.59,0.96,0.59,1.0,
+hawaii,renewable,Hale Kuawehi Solar,all,2025-04,2026-10,19,12.22,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+hawaii,renewable,Waikoloa Solar,all,2023-05,2026-10,42,13.05,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+hawaii,renewable,FIT,all,2015-01,2026-10,141,0.82,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 0%),18.9,23.8,0.02,0.11,0.0,"발전차액(정책 요금) 프로그램, 단일 계약 아님"
+hawaii,renewable,PGV - Add'l 5 MW,all,2015-01,2026-10,141,7.58,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 1%),12.3,14.48,0.12,0.7,0.01,
+hawaii,renewable,PGV - Add'l 8 MW,all,2015-01,2026-10,141,5.54,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 2%),6.25,10.1,-0.06,-0.15,0.02,
+hawaii,renewable,CBRE,all,2021-01,2026-10,70,0.19,FIXED_FLAT,단가 변경 없음,15.0,15.0,0.0,,0.0,
+hawaii,renewable,Hawi Renewable Dev.,after,2023-09,2026-10,38,5.87,FIXED_FLAT,단가 변경 없음,15.5,15.5,0.0,,0.0,HECO 2023.5 보도자료: 회피비용 → 고정가 재협상
+hawaii,renewable,Wailuku Hydro,after,2025-06,2026-10,17,3.46,FIXED_FLAT,단가 변경 없음,7.0,7.0,0.0,0.0,0.0,HECO 2025.4 보도자료: 회피비용 20¢ → 고정 7¢
+hawaii,renewable,Tawhiri (Pakini Nui),all,2015-01,2026-10,141,18.7,LAGGED_INDEXED,브렌트유 48개월 이동평균(6개월 시차)과 상관 0.99 → 느린 유가 연동,11.49,21.83,0.35,0.52,0.99,"HECO 보도자료상 회피비용 계약(2027 만료), 공시 단가는 완만한 월별 상승 → 산식 확인 필요"
+hawaii,renewable,HEP Biodiesel,all,2020-01,2026-10,82,3.3,OIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.38",11.43,58.59,0.78,0.38,1.0,HEP 화석 단가와 동일 단가로 정산(사실상 유가 연동)
+hawaii,renewable,Hawi Renewable Dev.,before,2015-01,2023-08,103,6.45,OIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.92",8.18,32.05,0.95,0.92,0.99,HECO 2023.5 보도자료: 회피비용 → 고정가 재협상
+hawaii,renewable,PGV,all,2015-01,2026-10,141,24.07,OIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.89",8.18,32.05,1.0,0.89,0.99,HECO 2023.5 보도자료: 회피비용(유가 연동) 계약
+hawaii,renewable,Sch Q Hydro (<100 KW),all,2015-01,2026-10,141,0.13,OIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.90",8.42,30.54,1.02,0.9,0.99,
+hawaii,renewable,Small Hydro (>100 KW),all,2015-01,2026-10,141,0.02,OIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.89",8.18,32.05,1.0,0.89,0.99,
+hawaii,renewable,Wailuku Hydro,before,2015-01,2025-05,124,4.76,OIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.90",8.18,32.05,1.03,0.9,0.99,HECO 2025.4 보도자료: 회피비용 20¢ → 고정 7¢
+maui,renewable,AES Kuihelani Solar,all,2024-06,2026-10,29,33.67,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+maui,renewable,FIT,all,2015-01,2026-10,132,3.53,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 1%),20.4,22.49,0.01,0.13,0.01,"발전차액(정책 요금) 프로그램, 단일 계약 아님"
+maui,renewable,Kaheawa Wind I,all,2015-01,2026-10,132,31.66,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 2%),12.57,14.0,0.03,0.25,0.02,
+maui,renewable,Sempra Wind,all,2015-01,2026-10,132,29.65,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 2%),20.91,24.64,0.12,0.67,0.02,
+maui,renewable,CBRE PV,all,2019-09,2026-10,86,0.05,FIXED_FLAT,단가 변경 없음,16.5,16.5,0.0,0.0,0.0,
+maui,renewable,Ku'ia Solar,all,2018-01,2026-10,98,1.44,FIXED_FLAT,단가 변경 없음,11.06,11.06,0.0,0.0,0.0,
+maui,renewable,South Maui RR,all,2018-01,2026-10,98,1.71,FIXED_FLAT,단가 변경 없음,11.06,11.06,0.0,0.0,0.0,
+maui,renewable,HC&S - Unscheduled,all,2015-01,2015-10,10,0.0,OIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.88",10.38,17.76,1.06,0.88,1.0,
+maui,renewable,Hydro & Other,all,2015-01,2019-12,50,1.55,OIL_INDEXED,"비-1월 변경 98%, 연료비 상관 0.92",8.23,18.37,0.88,0.92,0.98,
+maui,renewable,HC&S - Regular Energy,all,2015-01,2016-12,24,0.15,OTHER,"비-1월 변경 47%, 연료비 상관 -0.60",10.38,19.1,-0.7,-0.6,0.47,
+maui,renewable,Kaheawa Wind II,all,2015-01,2026-10,133,24.79,OTHER,"비-1월 변경 10%, 연료비 상관 0.32",18.68,26.86,0.11,0.32,0.1,
+oahu,fossil,Chevron,all,2015-01,2017-01,25,0.0,FOSSIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.99",5.96,15.02,0.96,0.99,1.0,
+oahu,fossil,IES Downstream,all,2017-02,2026-10,117,0.03,FOSSIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.95",9.86,16.35,1.07,0.95,1.0,
+oahu,fossil,Kalaeloa,all,2015-01,2026-10,142,42.49,FOSSIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.93",7.23,33.22,1.01,0.93,1.0,
+oahu,fossil,PAR Hawaii,all,2017-04,2026-10,115,0.38,FOSSIL_INDEXED,"비-1월 변경 99%, 연료비 상관 0.90",7.2,29.42,1.05,0.9,0.99,
+oahu,fossil,THC,all,2015-01,2017-03,27,0.36,FOSSIL_INDEXED,"비-1월 변경 100%, 연료비 상관 0.99",5.96,15.02,0.96,0.99,1.0,
+oahu,fossil,AES-HI,all,2015-01,2022-12,96,38.22,OTHER,"비-1월 변경 60%, 연료비 상관 0.49",3.1,3.64,0.07,0.49,0.6,"석탄 발전, 2022.9 폐쇄"
+oahu,renewable,Hoohana Solar,all,2025-08,2026-10,15,3.18,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+oahu,renewable,Kupono Solar,all,2024-04,2026-10,31,2.77,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+oahu,renewable,Mililani I Solar,all,2022-09,2026-10,50,3.05,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+oahu,renewable,Waiawa Solar,all,2023-02,2026-10,45,2.85,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+oahu,renewable,West Oahu Solar,all,2024-02,2026-10,33,0.97,FIXED_CONFIDENTIAL,"공시 단가 0(비공개), 구매비중 >0",,,,,,
+oahu,renewable,HRRV,all,2015-01,2026-10,142,11.9,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 1%),6.28,22.12,0.2,0.19,0.01,
+oahu,renewable,Kahuku Wind,all,2015-01,2026-10,142,2.13,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 1%),18.99,23.31,0.12,0.68,0.01,
+oahu,renewable,Kawailoa Wind,all,2015-01,2026-10,142,3.76,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 0%),21.1,24.86,0.1,0.69,0.0,
+oahu,renewable,Na Pua Makani Wind,all,2020-01,2026-10,72,2.98,FIXED_ESCALATOR,변경이 주로 1월(비-1월 변경 0%),13.93,14.64,0.02,0.2,0.0,
+oahu,renewable,CBRE PV,all,2019-01,2026-10,94,0.1,FIXED_FLAT,단가 변경 없음,15.0,15.0,-0.0,,0.0,
+oahu,renewable,Kawailoa PV,all,2020-01,2026-10,81,3.21,FIXED_FLAT,단가 변경 없음,12.73,12.73,0.0,0.0,0.0,
+oahu,renewable,Lanikuhana PV,all,2020-01,2026-10,82,1.07,FIXED_FLAT,단가 변경 없음,13.05,13.05,-0.0,0.0,0.0,
+oahu,renewable,Waianae Solar PV,all,2018-01,2026-10,106,2.12,FIXED_FLAT,단가 변경 없음,14.5,14.5,0.0,,0.0,
+oahu,renewable,Waipio PV,all,2020-01,2026-10,82,3.18,FIXED_FLAT,단가 변경 없음,12.18,12.18,-0.0,,0.0,
+oahu,renewable,As Available I,all,2015-01,2026-10,142,0.64,OTHER,"비-1월 변경 43%, 연료비 상관 0.48",21.07,24.37,0.06,0.48,0.43,
+oahu,renewable,FIT,all,2015-01,2026-10,142,1.96,OTHER,"비-1월 변경 58%, 연료비 상관 0.59",18.97,23.78,0.18,0.59,0.58,"발전차액(정책 요금) 프로그램, 단일 계약 아님"

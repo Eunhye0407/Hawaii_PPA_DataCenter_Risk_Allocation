@@ -1,0 +1,4 @@
+﻿contract,formula,months,passthrough,se,price_min,price_max
+PGV,OIL_INDEXED,138,0.499,0.098,8.8025,31.156
+PGV - Add'l 5 MW,FIXED_ESCALATOR,138,0.0,0.0,12.3,14.48
+PGV - Add'l 8 MW,FIXED_ESCALATOR,138,-0.023,0.021,6.34,8.42
